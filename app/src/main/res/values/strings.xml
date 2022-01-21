@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BestFit</string>
+    <string name="col1">WEIGHT</string>
+    <string name="col2">HEIGHT</string>
+    <string name="col3">BMI</string>
+    <string name="bestfit">BestFIT</string>
+    <string name="enter_your_bmi">ENTER YOUR BMI</string>
+    <string name="activity_time_in_mins">Activity time(in mins)</string>
+    <string name="enter_activity_time_in_mins">Enter activity time(in mins)</string>
+    <string name="enter_your_weight_in_kgs">Enter your weight (in kgs)</string>
+    <string name="hey_xyz_you_need_to_burn_calories_according_to_your_weight_choose_your_favourite_exercise">HEY XYZ! YOU NEED TO BURN _ CALORIES ACCORDING TO YOUR WEIGHT.CHOOSE YOUR FAVOURITE EXERCISE</string>
+</resources>
