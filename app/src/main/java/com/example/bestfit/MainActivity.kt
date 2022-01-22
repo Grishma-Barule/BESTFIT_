@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun LetsStart(view: View) {
-        val intent = Intent(this, mainworkout::class.java)
+        val intent = Intent(this, MainLogin::class.java)
         startActivity(intent)
     }
 }

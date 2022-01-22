@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:textColor="#371a9f"
         android:textSize="24sp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/effectshow"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -62,8 +62,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
+        android:textSize="20sp"
         android:background="@drawable/roundbtn"
         android:text="Calculate BMI"
         app:backgroundTint="#2196F3"
@@ -78,7 +79,7 @@
         android:layout_height="wrap_content"
         android:textColor="#371a9f"
         android:textSize="24sp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,10 +87,11 @@
 
     <Button
         android:id="@+id/PrgrsLaunch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="180dp"
+        android:layout_height="75dp"
         android:background="@drawable/roundbtn"
         android:onClick="showchart"
+        android:textSize="20sp"
         android:text="view stat"
         app:backgroundTint="#2196F3"
         app:layout_constraintBottom_toBottomOf="parent"

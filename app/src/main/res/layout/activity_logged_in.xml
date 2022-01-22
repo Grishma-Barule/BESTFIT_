@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoggedIn">
+
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textColor="#371A9F"
+        android:textColorLink="#371A9F"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Name : Demo Name"
+        android:background="@drawable/inputcard"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/Welcome" />
+
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Phone: Demo Phone"
+        android:background="@drawable/inputcard"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        app:layout_constraintBottom_toTopOf="@id/emailLog"/>
+
+    <TextView
+        android:id="@+id/emailLog"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:text="Email : Demo Email"
+        android:background="@drawable/inputcard"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="@drawable/roundbtn"
+        android:text="Log Out"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailLog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

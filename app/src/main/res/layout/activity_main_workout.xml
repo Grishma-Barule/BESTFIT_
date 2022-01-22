@@ -51,14 +51,14 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="300dp"
         android:src="@drawable/b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="1.0"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -91,6 +91,20 @@
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.408" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:background="@drawable/roundbtn"
+        android:text="Profile"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.169" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

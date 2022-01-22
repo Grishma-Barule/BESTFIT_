@@ -65,7 +65,7 @@ class UserInformation : AppCompatActivity() {
           Toast.makeText(applicationContext,"Storing Data",Toast.LENGTH_LONG).show()
         }
 
-        val message= " your bmi is $bmi"
+        val message= " Your bmi is $bmi"
 
         val textView = findViewById<TextView>(R.id.bmishow).apply {
             text=message }
