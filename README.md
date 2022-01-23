@@ -1,8 +1,8 @@
-# BESTFIT_
-
+# BEST-FIT
 
 ### Team name:  Tactful Techpeeps 
 ## Description
+
 Our project is a health related app. It informs  users about various exercises according to their weight, height, activity time by calculating body parameters like BMI and activity trackers like tables and line charts fot timely tracking. User also have their unique login so app is user specific
 caretaker and truly acts as a free mentor and their own personal health coach.
 
@@ -35,7 +35,7 @@ TEAM MEMBERS:
 * AAYUSH RAZDAN
 
 ## Links
-*  [Github link](https://github.com/Grishma-Barule/BEST-FIT)
+*  [Github link](https://github.com/Grishma-Barule/BESTFIT_)
 *  [Demo link](https://drive.google.com/file/d/1LorPvdfH85NY1YVpYePvw6VJ50IiBjMg/view)
 
 
